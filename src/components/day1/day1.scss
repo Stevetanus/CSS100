@@ -1,0 +1,58 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(to top left, #43389f 0%, #4ec6ca 100%);
+  color: #333;
+  font-family: "Courier New", "Courier", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .number {
+    position: relative;
+    left: 10px;
+    height: 100px;
+    width: 200px;
+    .one-one {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: -18px;
+      height: 40px;
+      width: 20px;
+      background: #fff;
+      border-radius: 3px;
+      transform: rotate(50deg);
+      box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+    }
+    .one-two {
+      position: absolute;
+      z-index: 10;
+      top: 0;
+      left: 0px;
+      height: 100px;
+      width: 24px;
+      background: #fff;
+      border-radius: 3px;
+      box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+    }
+  }
+}
