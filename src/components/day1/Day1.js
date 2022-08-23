@@ -14,9 +14,8 @@ export default function Day1() {
             <div className="zero-one"></div>
             <div className="zero-two"></div>
           </div>
-
-          <p>DAYS</p>
-          <p>CSS CHALLENGE</p>
+          <span className="big">days</span>
+          <span className="small">css chanllenge</span>
         </div>
       </div>
       <button onClick={() => navigate("/")}>Back to home!</button>
