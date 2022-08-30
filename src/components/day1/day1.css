@@ -8,8 +8,10 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  background: -webkit-gradient(linear, right bottom, left top, from(#43389f), to(#4ec6ca));
   background: linear-gradient(to top left, #43389f 0%, #4ec6ca 100%);
   color: #333;
   font-family: "Courier New", "Courier", sans-serif;
@@ -22,14 +24,17 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
+
 .center .number {
   position: relative;
   left: 10px;
   height: 100px;
   width: 200px;
 }
+
 .center .number .one-one {
   position: absolute;
   z-index: 1;
@@ -39,9 +44,12 @@
   width: 20px;
   background: #fff;
   border-radius: 3px;
-  transform: rotate(50deg);
-  box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+          box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
 }
+
 .center .number .one-two {
   position: absolute;
   z-index: 10;
@@ -51,25 +59,31 @@
   width: 24px;
   background: #fff;
   border-radius: 3px;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+  -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+          box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
 }
+
 .center .number .zero-one,
 .center .number .zero-two {
   position: absolute;
   z-index: 8;
   top: 0;
   left: 17px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   border: 24px solid #fff;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+  -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+          box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
 }
+
 .center .number .zero-two {
   z-index: 6;
   left: 100px;
 }
+
 .center .big {
   display: block;
   font-size: 85px;
@@ -77,6 +91,7 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .center .small {
   display: block;
   font-size: 22px;
@@ -84,4 +99,5 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.04em;
-}/*# sourceMappingURL=day1.css.map */
+}
+/*# sourceMappingURL=day1.css.map */
