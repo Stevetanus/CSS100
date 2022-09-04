@@ -3,89 +3,69 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
 // use only the available space inside the 400x400 frame
-.frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-  border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+.day1 {
   background: linear-gradient(to top left, #43389f 0%, #4ec6ca 100%);
-  color: #333;
-  font-family: "Courier New", "Courier", sans-serif;
   color: #fff; // remember to put after font-family
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  .number {
-    position: relative;
-    left: 10px;
+.number {
+  position: relative;
+  left: 10px;
+  height: 100px;
+  width: 200px;
+  .one-one {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -18px;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
+  }
+  .one-two {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0px;
     height: 100px;
-    width: 200px;
-    .one-one {
-      position: absolute;
-      z-index: 1;
-      top: 0;
-      left: -18px;
-      height: 40px;
-      width: 20px;
-      background: #fff;
-      border-radius: 3px;
-      transform: rotate(50deg);
-      box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
-    }
-    .one-two {
-      position: absolute;
-      z-index: 10;
-      top: 0;
-      left: 0px;
-      height: 100px;
-      width: 24px;
-      background: #fff;
-      border-radius: 3px;
-      box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
-    }
-    .zero-one,
-    .zero-two {
-      position: absolute;
-      z-index: 8;
-      top: 0;
-      left: 17px;
-      box-sizing: border-box;
-      height: 100px;
-      width: 100px;
-      border-radius: 50%;
-      border: 24px solid #fff;
-      box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
-    }
-    .zero-two {
-      z-index: 6;
-      left: 100px;
-    }
+    width: 24px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
   }
-  .big {
-    display: block;
-    font-size: 85px;
-    line-height: 70px; // don't know what it is
-    text-transform: uppercase;
-    font-weight: 700;
+  .zero-one,
+  .zero-two {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 17px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 200, 0.5);
   }
-  .small {
-    display: block;
-    font-size: 22px;
-    line-height: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.04em;
+  .zero-two {
+    z-index: 6;
+    left: 100px;
   }
+}
+.big {
+  display: block;
+  font-size: 85px;
+  line-height: 70px; // don't know what it is
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.small {
+  display: block;
+  font-size: 22px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }

@@ -6,7 +6,7 @@ export default function Day1() {
   let navigate = useNavigate();
   return (
     <>
-      <div className="frame">
+      <div className="frame day1">
         <div className="center">
           <div className="number">
             <div className="one-one"></div>

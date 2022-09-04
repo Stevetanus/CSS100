@@ -1,24 +1,8 @@
-.frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-  border-radius: 2px;
+.day2 {
   -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   background: #3faf82;
   color: #fff;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .menu-icon {
