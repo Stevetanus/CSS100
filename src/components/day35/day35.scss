@@ -1,0 +1,40 @@
+$length: 288;
+
+.day35 {
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #1bbe9e;
+}
+
+.bg {
+  fill: none;
+  stroke: #12836d;
+  stroke-width: 4;
+}
+
+.loader {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: $length;
+  animation: line 4s linear infinite, spin 3s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes line {
+  0% {
+    stroke-dashoffset: ($length * 4);
+  }
+  100% {
+    stroke-dashoffset: ($length * 2);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(-180deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(180deg) translate3d(0, 0, 0);
+  }
+}

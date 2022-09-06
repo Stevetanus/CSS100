@@ -1,10 +1,56 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  box-sizing: border-box;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  h1 {
+    text-align: center;
+  }
+  h2 a {
+    color: grey;
+    &.title {
+      color: darkblue;
+    }
+  }
+  .title {
+    color: darkblue;
+  }
+  .navbar {
+    display: flex;
+    width: 30vw;
+    flex-wrap: wrap;
+    .day {
+      width: 3rem;
+      height: 3rem;
+      background: rgb(34, 197, 94);
+      display: flex;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+    }
+  }
+  a {
+    text-decoration: none;
+    &.none {
+      display: none;
+    }
+    &.back {
+      display: block;
+    }
+    &.nav-active {
+      font-weight: 900;
+      .day {
+        color: darkblue;
+      }
+    }
+  }
 }
 
 code {
@@ -12,7 +58,7 @@ code {
     monospace;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
 
 // use only the available space inside the 400x400 frame
 .frame {

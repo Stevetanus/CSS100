@@ -3,12 +3,15 @@ import { useNavigate } from "react-router-dom";
 import "./day1.css";
 
 export default function Day1() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   return (
     <>
       <div className="frame day1">
         <div className="center">
           <div className="number">
+            {/* <div className="block"></div> */}
+            {/* <div className="three-one"></div>
+            <div className="three-two"></div> */}
             <div className="one-one"></div>
             <div className="one-two"></div>
             <div className="zero-one"></div>
@@ -18,7 +21,7 @@ export default function Day1() {
           <span className="small">css chanllenge</span>
         </div>
       </div>
-      <button onClick={() => navigate("/")}>Back to home!</button>
+      {/* <button onClick={() => navigate("/")}>Back to home!</button> */}
     </>
   );
 }

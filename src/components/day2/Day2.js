@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./day2.css";
 
 export default function Day2() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   const menuIconRef = useRef(null);
   return (
     <div>
@@ -26,7 +26,7 @@ export default function Day2() {
           </div>
         </div>
       </div>
-      <button onClick={() => navigate("/")}>Back to home!</button>
+      {/* <button onClick={() => navigate("/")}>Back to home!</button> */}
     </div>
   );
 }

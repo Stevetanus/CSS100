@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./day3.css";
 
 export default function Day2() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   return (
     <div>
       <div className="frame day3">
@@ -18,7 +18,7 @@ export default function Day2() {
           </div>
         </div>
       </div>
-      <button onClick={() => navigate("/")}>Back to home!</button>
+      {/* <button onClick={() => navigate("/")}>Back to home!</button> */}
     </div>
   );
 }
