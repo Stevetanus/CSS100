@@ -1,0 +1,92 @@
+.day19 {
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.center_d19 {
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.center_d19 input[type="radio"] {
+  display: none;
+}
+
+.center_d19 .circle {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+  top: 175px;
+  left: 115px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.center_d19 #c2 {
+  left: 175px;
+}
+
+.center_d19 #c3 {
+  left: 235px;
+}
+
+.center_d19 .active {
+  position: absolute;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  top: 180px;
+  left: 120px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.center_d19 .bg {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background: #3498db;
+  border-left: 400px solid #9b59b6;
+  border-right: 400px solid #1abc9c;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  translate: 0px;
+}
+
+.center_d19 #check-1:checked ~ .active {
+  translate: 0px;
+}
+
+.center_d19 #check-2:checked ~ .active {
+  translate: 60px;
+}
+
+.center_d19 #check-3:checked ~ .active {
+  translate: 120px;
+}
+
+.center_d19 #check-1:checked ~ .bg {
+  translate: 0px;
+}
+
+.center_d19 #check-2:checked ~ .bg {
+  translate: -400px;
+}
+
+.center_d19 #check-3:checked ~ .bg {
+  translate: -800px;
+}
+/*# sourceMappingURL=day19.css.map */

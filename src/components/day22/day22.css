@@ -1,0 +1,189 @@
+.day22 {
+  background: #28404e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#28404e), to(#1c2e38));
+  background: linear-gradient(to bottom, #28404e 0%, #1c2e38 100%);
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.day22 .center {
+  color: #fff;
+}
+
+.day22 .headline {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 22px;
+}
+
+.day22 .headline .small {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.day22 .circle-big {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  margin: 30px auto 25px auto;
+}
+
+.day22 .circle-big svg {
+  width: 114px;
+  height: 114px;
+}
+
+.day22 .circle-big .bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #1b2a33;
+}
+
+.day22 .circle-big .progress {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #27e1ae;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 60;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  rotate: -90deg;
+  -webkit-animation: big_d22 1.5s ease-out;
+          animation: big_d22 1.5s ease-out;
+}
+
+.day22 .circle-big .text {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.day22 .circle-big .text .small {
+  font-size: 14px;
+  color: #648192;
+}
+
+.day22 .circles-small {
+  margin: 0 auto;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+}
+
+.day22 .circle-small {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+}
+
+.day22 .circle-small svg {
+  width: 80px;
+  height: 80px;
+}
+
+.day22 .circle-small .bg {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #1b2a33;
+}
+
+.day22 .circle-small .progress {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #5ce1ec;
+  stroke-linecap: round;
+  stroke-dasharray: 232.36;
+  rotate: -90deg;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.day22 .circle-small .progress.one {
+  stroke-dashoffset: 80;
+  -webkit-animation: one_d22 1.5s ease-out;
+          animation: one_d22 1.5s ease-out;
+}
+
+.day22 .circle-small .progress.two {
+  stroke-dashoffset: 140;
+  -webkit-animation: two_d22 1.5s ease-out;
+          animation: two_d22 1.5s ease-out;
+}
+
+.day22 .circle-small .text {
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.day22 .circle-small .text .small {
+  font-size: 12px;
+  color: #648192;
+}
+
+@-webkit-keyframes big_d22 {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes big_d22 {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@-webkit-keyframes one_d22 {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes one_d22 {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@-webkit-keyframes two_d22 {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+
+@keyframes two_d22 {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+/*# sourceMappingURL=day22.css.map */

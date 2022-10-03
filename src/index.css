@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,400,500,600,200,800);
 body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  font-family: "Noto Sans TC", sans-serif;
-  font-family: "Roboto", sans-serif;
+  background: rgba(0, 0, 0, 0.3);
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,11 +20,11 @@ body h2 a {
 }
 
 body h2 a.title {
-  color: darkblue;
+  color: #000;
 }
 
 body .title {
-  color: darkblue;
+  color: #000;
 }
 
 body .navbar {
@@ -36,7 +36,7 @@ body .navbar {
       flex-wrap: wrap;
 }
 
-body .navbar .day {
+body .navbar .daybar {
   width: 3rem;
   height: 3rem;
   background: #22c55e;
@@ -51,8 +51,14 @@ body .navbar .day {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10%;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+body .navbar .daybar:hover {
+  font-weight: 900;
+  background: #1a9a49;
+  color: dimgrey;
 }
 
 body a {
@@ -65,6 +71,17 @@ body a.none {
 
 body a.back {
   display: block;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 20px;
+  background: #1bbe9e;
+}
+
+body a.back:focus {
+  color: #fff;
 }
 
 body a.nav-active {
@@ -72,11 +89,7 @@ body a.nav-active {
 }
 
 body a.nav-active .day {
-  color: darkblue;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: gray;
 }
 
 .frame {

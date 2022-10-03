@@ -44,13 +44,13 @@
 .menu-icon:hover .line-1,
 .menu-icon:hover .line-2,
 .menu-icon:hover .line-3 {
-  background-color: #fff;
+  background: #e6e6e6;
 }
 
 .menu-icon.active .line-1,
 .menu-icon.active .line-2,
 .menu-icon.active .line-3 {
-  background-color: #fff;
+  background: gray;
 }
 
 .menu-icon.active .line-1 {
@@ -138,6 +138,10 @@
     -webkit-transform: translate3d(0, -22px, 0) rotate(0);
             transform: translate3d(0, -22px, 0) rotate(0);
   }
+  90% {
+    -webkit-transform: translate3d(0, -22px, 0) rotate(145deg);
+            transform: translate3d(0, -22px, 0) rotate(145deg);
+  }
   100% {
     -webkit-transform: translate3d(0, -22px, 0) rotate(135deg);
             transform: translate3d(0, -22px, 0) rotate(135deg);
@@ -152,6 +156,10 @@
   50% {
     -webkit-transform: translate3d(0, -22px, 0) rotate(0);
             transform: translate3d(0, -22px, 0) rotate(0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -22px, 0) rotate(145deg);
+            transform: translate3d(0, -22px, 0) rotate(145deg);
   }
   100% {
     -webkit-transform: translate3d(0, -22px, 0) rotate(135deg);

@@ -1,0 +1,301 @@
+.day16 {
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #46a6da;
+}
+
+.blobb_d16 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 155px;
+  left: 155px;
+  background: #fff;
+  border-radius: 50%;
+  animation: blobby_d16 5s ease-in-out infinite;
+}
+
+.blobb-ring {
+  box-sizing: border-box;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 145px;
+  left: 145px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  animation: blobby-ring 5s ease-in-out infinite;
+}
+
+.octagon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 150px;
+  left: 150px;
+  fill: #fff;
+  // 旋轉22.5度
+  rotate: 22.5deg;
+  animation: octa 5s ease-in-out infinite;
+}
+
+.octa-sparkles {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  // background: #000;
+  animation: octa-sparkle 5s ease-in-out infinite;
+
+  .sparkle {
+    position: absolute;
+    top: 0;
+    // background: grey;
+    // 在.octa-sparkles的中心線
+    left: 98px;
+    width: 4px;
+    height: 200px;
+
+    &:before,
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 25px;
+      // :before 為置頂的光束
+      top: 0;
+      left: 0;
+      border-radius: 2px;
+      background: #fff;
+    }
+
+    &:after {
+      // 置底的光束
+      top: auto;
+      bottom: 0;
+    }
+  }
+
+  .s2 {
+    rotate: 45deg;
+  }
+
+  .s3 {
+    rotate: 90deg;
+  }
+
+  .s4 {
+    rotate: 135deg;
+  }
+}
+
+.triangle_d16 {
+  position: absolute;
+  width: 106px;
+  height: 90px;
+  top: 145px;
+  left: 147px;
+  fill: #fff;
+  animation: triangle_d16 5s ease-in-out infinite;
+}
+
+.triangle-sparkles {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  animation: triangle-sparkle 5s ease-in-out infinite;
+
+  .sparkle {
+    position: absolute;
+    top: 0;
+    left: 98px;
+    width: 4px;
+    height: 200px;
+
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 25px;
+      top: 0;
+      left: 0;
+      border-radius: 2px;
+      background: #fff;
+    }
+  }
+
+  .s1 {
+    top: 10px;
+  }
+  .s2 {
+    rotate: 124deg;
+  }
+  .s3 {
+    rotate: 237deg;
+  }
+}
+
+@keyframes blobby_d16 {
+  // 從上方出現
+  0% {
+    translate: 0 -300px;
+    scale: 1 1.2;
+  }
+  // 10%, 14%, 18%: 下上下、小大小的抖動
+  10% {
+    translate: 0 50px;
+    scale: 1 0.8;
+  }
+  14% {
+    translate: 0 -30px;
+    scale: 1 1.1;
+  }
+  18% {
+    translate: 0 10px;
+    scale: 1 0.9;
+  }
+  // 回復原狀
+  20%,
+  22% {
+    translate: 0 0;
+    scale: 1;
+  }
+  // 放大然後消失中
+  26% {
+    scale: 1.2;
+  }
+  // 32% 消失
+  32%,
+  74% {
+    scale: 0;
+  }
+  // 圓形出現，大小大
+  80% {
+    scale: 1.2;
+  }
+  84% {
+    scale: 0.9;
+  }
+  86%,
+  88% {
+    translate: 0 0;
+    scale: 1;
+  }
+  // 往回且變小一點
+  92% {
+    translate: 0 -30px;
+    scale: 1 0.9;
+  }
+  // 放大離開
+  100% {
+    translate: 0 300px;
+    scale: 1 2;
+  }
+}
+
+@keyframes blobby-ring {
+  0%,
+  74% {
+    scale: 0;
+    opacity: 1;
+  }
+  // 圓形為1.2倍(108px)，很接近光環(110px)
+  80% {
+    opacity: 1;
+  }
+  // 光環擴散成1.4倍，同時消失
+  84%,
+  100% {
+    scale: 1.4;
+    opacity: 0;
+  }
+}
+
+@keyframes octa {
+  0%,
+  30% {
+    scale: 0;
+  }
+  // 八角形 36%出現
+  36% {
+    scale: 1.2;
+  }
+  40% {
+    scale: 0.9;
+  }
+  42%,
+  44% {
+    scale: 1;
+  }
+  48% {
+    scale: 1.2;
+  }
+  // 54% 八角形消失
+  54%,
+  100% {
+    scale: 0;
+  }
+}
+
+@keyframes octa-sparkle {
+  0%,
+  30% {
+    scale: 0;
+    opacity: 1;
+  }
+  // 36% 八角形光束出現
+  36% {
+    opacity: 1;
+  }
+  40%,
+  100% {
+    scale: 1.4;
+    opacity: 0;
+  }
+}
+
+@keyframes triangle_d16 {
+  0%,
+  52% {
+    scale: 0;
+  }
+  // 58% 三角形出現
+  58% {
+    scale: 1.2;
+  }
+  62% {
+    scale: 0.9;
+  }
+  64%,
+  66% {
+    scale: 1;
+  }
+  70% {
+    scale: 1.2;
+  }
+  // 76% 三角形消失
+  76%,
+  100% {
+    scale: 0;
+  }
+}
+
+@keyframes triangle-sparkle {
+  0%,
+  52% {
+    scale: 0;
+    opacity: 1;
+  }
+  58% {
+    opacity: 1;
+  }
+  62%,
+  100% {
+    scale: 1.4;
+    opacity: 0;
+  }
+}

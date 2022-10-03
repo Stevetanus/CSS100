@@ -1,0 +1,153 @@
+.day22 {
+  background: #28404e;
+  background: linear-gradient(to bottom, #28404e 0%, #1c2e38 100%);
+
+  font-family: "Open Sans", Helvetica, sans-serif;
+  .center {
+    color: #fff;
+  }
+  .headline {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 22px;
+
+    .small {
+      font-weight: 300;
+      font-size: 16px;
+    }
+  }
+
+  .circle-big {
+    position: relative;
+    width: 114px;
+    height: 114px;
+    margin: 30px auto 25px auto; // m30-a-15-a 上右下左
+
+    svg {
+      width: 114px;
+      height: 114px;
+    }
+
+    .bg {
+      fill: none;
+      stroke-width: 10px;
+      stroke: #1b2a33;
+    }
+
+    .progress {
+      fill: none;
+      stroke-width: 10px;
+      stroke: #27e1ae;
+      stroke-linecap: round;
+      stroke-dasharray: (52 * 2 * 3.14); // 圓周長 = 半徑*2*圓周率
+      stroke-dashoffset: 60;
+      transform-origin: 50% 50%; // rotate的旋轉中心為圓形中心
+      rotate: -90deg; // 往回90deg從圓形正上方開始畫stroke
+      animation: big_d22 1.5s ease-out;
+    }
+
+    .text {
+      position: absolute;
+      width: 100%;
+      top: 37px;
+      font-size: 24px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 22px;
+
+      .small {
+        font-size: 14px;
+        color: #648192;
+      }
+    }
+  }
+
+  .circles-small {
+    margin: 0 auto; // m0-a 上下0px 左右平均分配
+    width: 400px;
+    height: 80px;
+    text-align: center;
+  }
+
+  .circle-small {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+
+    .bg {
+      fill: none;
+      stroke-width: 6px;
+      stroke: #1b2a33;
+    }
+
+    .progress {
+      fill: none;
+      stroke-width: 6px;
+      stroke: #5ce1ec;
+      stroke-linecap: round;
+      stroke-dasharray: (37 * 2 * 3.14);
+      rotate: -90deg;
+      transform-origin: 50% 50%;
+
+      &.one {
+        stroke-dashoffset: 80;
+        animation: one_d22 1.5s ease-out;
+      }
+
+      &.two {
+        stroke-dashoffset: 140;
+        animation: two_d22 1.5s ease-out;
+      }
+    }
+    .text {
+      position: absolute;
+      width: 100%;
+      top: 30px;
+      font-size: 17px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 16px;
+
+      .small {
+        font-size: 12px;
+        color: #648192;
+      }
+    }
+  }
+}
+
+@keyframes big_d22 {
+  from {
+    stroke-dashoffset: (52 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes one_d22 {
+  from {
+    stroke-dashoffset: (37 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes two_d22 {
+  from {
+    stroke-dashoffset: (37 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}

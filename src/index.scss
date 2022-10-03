@@ -1,10 +1,13 @@
+$button-bg: rgb(34, 197, 94);
+$body-bg: rgba(0, 0, 0, 0.3);
 body {
   margin: 0;
   box-sizing: border-box;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  font-family: "Noto Sans TC", sans-serif;
-  font-family: "Roboto", sans-serif;
+  background: $body-bg;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: "Ubuntu", sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   h1 {
@@ -13,27 +16,34 @@ body {
   h2 a {
     color: grey;
     &.title {
-      color: darkblue;
+      color: #000;
     }
   }
   .title {
-    color: darkblue;
+    color: #000;
   }
   .navbar {
     display: flex;
     width: 30vw;
     flex-wrap: wrap;
-    .day {
+    .daybar {
       width: 3rem;
       height: 3rem;
-      background: rgb(34, 197, 94);
+      background: $button-bg;
       display: flex;
       color: #fff;
       justify-content: center;
       align-items: center;
       border-radius: 10%;
-      border-left: 1px solid white;
-      border-right: 1px solid white;
+      // border-left: 1px solid transparent;
+      // border-right: 1px solid transparent;
+      margin-right: 3px;
+      margin-bottom: 3px;
+      &:hover {
+        font-weight: 900;
+        background: darken($button-bg, 10%);
+        color: dimgrey;
+      }
     }
   }
   a {
@@ -43,23 +53,27 @@ body {
     }
     &.back {
       display: block;
+      margin-top: 50px;
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 20px;
+      background: #1bbe9e;
+      &:focus {
+        color: #fff;
+      }
     }
     &.nav-active {
       font-weight: 900;
       .day {
-        color: darkblue;
+        color: gray;
       }
     }
   }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,400,500,600,200,800);
 // use only the available space inside the 400x400 frame
 .frame {
   position: absolute;

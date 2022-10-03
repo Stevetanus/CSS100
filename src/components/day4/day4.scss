@@ -1,0 +1,87 @@
+// use only the available space inside the 400x400 frame
+// https://cubic-bezier.com/#.21,.98,.6,.99
+$bezier: cubic-bezier(0.21, 0.98, 0.6, 0.99);
+
+.day4 {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #a393f5;
+}
+
+.center_d4 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  .circle1 {
+    animation: jump-jump-1 2s $bezier infinite alternate;
+    position: absolute;
+    top: 85px;
+    left: 85px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 3;
+    background-color: pink;
+  }
+
+  .circle2 {
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 2;
+    animation: jump-jump-2 2s $bezier infinite alternate;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+    background-color: pink;
+    border-radius: 50%;
+    animation: jump-jump-3 2s $bezier infinite alternate;
+  }
+}
+
+@keyframes jump-jump-1 {
+  0%,
+  70% {
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(0);
+  }
+
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+  }
+}
+
+@keyframes jump-jump-2 {
+  0%,
+  40% {
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(0);
+  }
+
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+  }
+}
+
+@keyframes jump-jump-3 {
+  0%,
+  10% {
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(0);
+  }
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+  }
+}

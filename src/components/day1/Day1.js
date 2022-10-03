@@ -8,17 +8,14 @@ export default function Day1() {
     <>
       <div className="frame day1">
         <div className="center">
-          <div className="number">
-            {/* <div className="block"></div> */}
-            {/* <div className="three-one"></div>
-            <div className="three-two"></div> */}
+          <div className="number_d1">
             <div className="one-one"></div>
             <div className="one-two"></div>
             <div className="zero-one"></div>
             <div className="zero-two"></div>
           </div>
-          <span className="big">days</span>
-          <span className="small">css chanllenge</span>
+          <span className="day_d1">days</span>
+          <span className="challenge">css chanllenge</span>
         </div>
       </div>
       {/* <button onClick={() => navigate("/")}>Back to home!</button> */}

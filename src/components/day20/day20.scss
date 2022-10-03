@@ -1,0 +1,183 @@
+.day20 {
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  background: #2c3e50;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  .circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 65px;
+    left: 100px;
+    background: #354a5f;
+    border-radius: 50%;
+  }
+
+  .circle-outer {
+    @extend .circle;
+    box-sizing: border-box;
+    background: none;
+    border: 4px solid #354a5f;
+  }
+
+  .icon {
+    position: absolute;
+    z-index: 2;
+    top: 130px;
+    left: 140px;
+    fill: none; // 去除預設的黑色
+    stroke-width: 2px;
+    stroke: #ecf0f1;
+    stroke-linecap: square;
+    stroke-dasharray: 325;
+
+    &.mail {
+      width: 120px;
+      height: 70px;
+      stroke-dashoffset: 0;
+    }
+
+    &.plane {
+      width: 120px;
+      height: 110px;
+      stroke-dashoffset: 325;
+    }
+  }
+
+  #cb {
+    display: none;
+  }
+
+  .button {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    height: 40px;
+    top: 290px;
+    left: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+
+    &.reset {
+      opacity: 0;
+      z-index: 5;
+    }
+
+    &:hover {
+      background: #1abc9c;
+      color: #fff;
+    }
+  }
+
+  #cb:checked ~ .button {
+    animation: button_d20 1.5s ease-in-out 1.7s; // 延遲1.7s出發，飛機駛離動畫為2.4s結束
+    animation-fill-mode: both;
+  }
+
+  #cb:checked ~ .reset {
+    animation: reset_d20 1s ease-in-out 3.7s;
+    animation-fill-mode: both;
+  }
+
+  #cb:checked ~ .circle {
+    animation: circle_d20 1s ease-in-out;
+    animation-fill-mode: both;
+  }
+
+  #cb:checked ~ .circle-outer {
+    animation: circle_d20 0.8s ease-in-out 0.2s;
+    animation-fill-mode: both;
+  }
+
+  #cb:checked ~ .mail {
+    stroke-dashoffset: 326;
+    transition: stroke-dashoffset 1s ease-in-out;
+  }
+
+  #cb:checked ~ .plane {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s ease-in-out 0.6s;
+    animation: fly_d20 2.4s ease-in-out;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes button_d20 {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    background: #1abc9c; // 變為深綠色背景
+    color: transparent; // 文字消失
+    width: 200px;
+    left: 100px;
+  }
+  50%,
+  60% {
+    // 縮小成圓球，原本height為40px
+    width: 40px;
+    left: 180px;
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.1); // 放大離開
+  }
+  100% {
+    width: 40px;
+    left: 180px;
+    background: #1abc9c;
+    color: transparent;
+    transform: scale(0);
+  }
+}
+
+@keyframes reset_d20 {
+  // 由暗轉明
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes circle_d20 {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes fly_d20 {
+  0%,
+  50% {
+    scale: 1;
+  }
+  60% {
+    scale: 1.05;
+    translate: -20px 10px;
+  }
+  70% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    translate: 300px -150px;
+    scale: 0.4;
+    opacity: 0;
+  }
+}

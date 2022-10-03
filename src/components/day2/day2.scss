@@ -10,7 +10,6 @@ $menu-icon-line-space: 14px;
 $menu-icon-line-offsetY: $menu-icon-line-height + $menu-icon-line-space;
 $menu-icon-height: (3 * $menu-icon-line-height) + (2 * $menu-icon-line-space);
 $cubic-bezier-in: cubic-bezier(0.3, 1, 0.7, 1);
-$cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
 
 .menu-icon {
   width: 80px;
@@ -43,7 +42,7 @@ $cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
     .line-1,
     .line-2,
     .line-3 {
-      background-color: #fff;
+      background: darken(#fff, 10%);
     }
   }
 
@@ -51,7 +50,7 @@ $cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
     .line-1,
     .line-2,
     .line-3 {
-      background-color: #fff;
+      background: darken(#fff, 50%);
     }
 
     .line-1 {
@@ -100,7 +99,9 @@ $cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
   50% {
     transform: translate3d(0, -$menu-icon-line-offsetY, 0) rotate(0);
   }
-
+  90% {
+    transform: translate3d(0, -$menu-icon-line-offsetY, 0) rotate(145deg);
+  }
   100% {
     transform: translate3d(0, -$menu-icon-line-offsetY, 0) rotate(135deg);
   }

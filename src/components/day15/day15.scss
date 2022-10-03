@@ -1,0 +1,160 @@
+.day15 {
+  background: #3a92af;
+  background: linear-gradient(to top right, #3a92af 0%, #5ca05a 100%);
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.center_d15 {
+  position: absolute;
+  width: 300px;
+  height: 260px;
+  top: 70px;
+  left: 50px;
+  background: #fff;
+  box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+
+  .title {
+    font-size: 16px;
+    color: #676767;
+    line-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: center;
+  }
+
+  .dropzone {
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    display: table;
+    table-layout: fixed;
+    width: 100px;
+    height: 80px;
+    top: 86px;
+    left: 100px;
+    border: 1px dashed #a4a4a4;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+    &.active {
+      opacity: 0;
+      display: none;
+    }
+    &.is-dragover {
+      border-color: #666;
+      background: #eee;
+    }
+
+    .content {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .upload {
+      margin: 6px 0 0 2px;
+    }
+
+    .filename {
+      display: block;
+      color: #676767;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .input {
+      position: absolute;
+      // 使得整個.dropzone點擊都可以選擇檔案
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+    }
+  }
+
+  .upload-btn {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 80px;
+    bottom: 24px;
+    background: #6ece3b;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px; //line-height == height
+    font-size: 14px;
+    box-shadow: 0 2px 0 0 #498c25;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 2px 0 0 #498c25, 0 2px 10px 0 #6ece3b;
+    }
+  }
+
+  .bar {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 3px;
+    top: 49px;
+    left: 0;
+    background: #6ece3b;
+    transition: all 3s ease-out;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+
+    &.active {
+      transform: scaleX(1) translate3d(0, 0, 0);
+    }
+  }
+
+  .syncing {
+    position: absolute;
+    top: 109px;
+    left: 134px;
+    opacity: 0;
+
+    &.active {
+      animation: syncing 3.2s ease-in-out;
+    }
+  }
+
+  .done {
+    position: absolute;
+    top: 112px;
+    left: 132px;
+    opacity: 0;
+
+    &.active {
+      animation: done_d15 0.5s ease-in 3.2s;
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@keyframes syncing {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes done_d15 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

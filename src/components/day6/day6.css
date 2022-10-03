@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+.day6 {
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: lightgreen;
+}
+
+.center_d6 {
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  text-align: center;
+  -webkit-box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile_d6 {
+  width: 200px;
+  background: #2345;
+}
+
+.profile_d6 .photo {
+  width: 80px;
+  margin: 38px auto 0 auto;
+  position: relative;
+}
+
+.profile_d6 .photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile_d6 .photo .circle1, .profile_d6 .photo .circle2 {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: -2px;
+  left: -2px;
+  height: 84px;
+  width: 84px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkgreen darkgreen darkgreen transparent;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+
+.profile_d6 .photo .circle2 {
+  width: 90px;
+  height: 90px;
+  top: -5px;
+  left: -5px;
+  border-color: darkgreen transparent darkgreen darkgreen;
+}
+
+.profile_d6 .photo:hover {
+  cursor: pointer;
+}
+
+.profile_d6 .photo:hover .circle1, .profile_d6 .photo:hover .circle2 {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.profile_d6 .photo:hover .circle2 {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
+
+.profile_d6 .name {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.profile_d6 .job {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.profile_d6 .connection {
+  margin-top: 30px;
+}
+
+.profile_d6 .connection .btn {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 auto 10px;
+  border: 1px solid darkgreen;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: darkgreen;
+}
+
+.profile_d6 .connection .btn:hover {
+  background: darkgreen;
+  color: #fff;
+}
+
+.statistic_d6 {
+  width: 100px;
+  background: #5678;
+}
+
+.statistic_d6 .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100px;
+  padding-top: 28px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #2345;
+}
+
+.statistic_d6 .box:nth-child(3) {
+  border: none;
+}
+
+.statistic_d6 .box:hover {
+  background: #00a300;
+  color: #fff;
+}
+/*# sourceMappingURL=day6.css.map */

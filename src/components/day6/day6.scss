@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+.day6 {
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: lightgreen;
+}
+
+.center_d6 {
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  text-align: center;
+  box-shadow: 10px 20px 40px 0px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.profile_d6 {
+  width: 200px;
+  background: #2345;
+  .photo {
+    width: 80px;
+    margin: 38px auto 0 auto;
+    position: relative;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .circle1 {
+      position: absolute;
+      box-sizing: border-box;
+      top: -2px;
+      left: -2px;
+      height: 84px;
+      width: 84px;
+      border-radius: 50%;
+      border-width: 1px;
+      border-style: solid;
+      border-color: darkgreen darkgreen darkgreen transparent;
+      transition: all 1.5s ease-in-out;
+    }
+    .circle2 {
+      @extend .circle1;
+      width: 90px;
+      height: 90px;
+      top: -5px;
+      left: -5px;
+      border-color: darkgreen transparent darkgreen darkgreen;
+    }
+    &:hover {
+      cursor: pointer;
+
+      .circle1 {
+        transform: rotate(360deg);
+      }
+      .circle2 {
+        transform: rotate(-360deg);
+      }
+    }
+  }
+  .name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .job {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .connection {
+    margin-top: 30px;
+    .btn {
+      display: block;
+      width: 120px;
+      height: 30px;
+      margin: 0 auto 10px;
+      border: 1px solid darkgreen;
+      border-radius: 15px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.3s ease-in-out;
+      color: darkgreen;
+      &:hover {
+        background: darkgreen;
+        color: #fff;
+      }
+    }
+  }
+}
+.statistic_d6 {
+  width: 100px;
+  background: #5678;
+  .box {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 28px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #2345;
+    &:nth-child(3) {
+      border: none;
+    }
+    &:hover {
+      background: #00a300;
+      color: #fff;
+    }
+  }
+}
