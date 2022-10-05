@@ -3,14 +3,23 @@ import "./day18.css";
 
 export default function Day18() {
   return (
-    <div class="frame day18">
-      <div class="top"></div>
-      <div class="ball"></div>
-      <div class="bottom"></div>
-      <div class="ellipse">
-        <div class="grey"></div>
-        <div class="green"></div>
+    <>
+      <div className="frame day18">
+        <div className="top"></div>
+        <div className="ball"></div>
+        <div className="bottom"></div>
+        <div className="ellipse">
+          <div className="grey"></div>
+          <div className="green"></div>
+        </div>
       </div>
-    </div>
+      <div className="css100_description">
+        <h3>Elastic</h3>
+        <p>
+          I thought for a long time about the best way to achieve this effect.
+          In the end, the solution was easier than expected.
+        </p>
+      </div>
+    </>
   );
 }

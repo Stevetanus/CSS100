@@ -14,7 +14,6 @@ import Day4 from "./components/day4/Day4";
 import Day5 from "./components/day5/Day5";
 import Day6 from "./components/day6/Day6";
 import Day7 from "./components/day7/Day7";
-import Day35 from "./components/day35/Day35";
 import Day8 from "./components/day8/Day8";
 import Day9 from "./components/day9/Day9";
 import Day10 from "./components/day10/Day10";
@@ -32,6 +31,10 @@ import Day21 from "./components/day21/Day21";
 import Day22 from "./components/day22/Day22";
 import Day23 from "./components/day23/Day23";
 import Day24 from "./components/day24/Day24";
+import Day25 from "./components/day25/Day25";
+import Day26 from "./components/day26/Day26";
+import Day27 from "./components/day27/Day27";
+import Day35 from "./components/day35/Day35";
 function App() {
   const [count, setCount] = useState(0);
   const [home, setHome] = useState(true);
@@ -46,229 +49,309 @@ function App() {
   return (
     <BrowserRouter>
       <h1>Welcome to CSS100 dashboard \(^Д^)/</h1>
-      <h2>
-        <NavLink
-          onClick={() => {
-            setHome(true);
-          }}
-          to=""
-          className={({ isActive }) => (isActive ? "title" : undefined)}
-        >
-          CSS TABS: <span>{count}</span>
-        </NavLink>
-      </h2>
+      <div className="leftside_nav">
+        <h2>
+          <NavLink
+            onClick={() => {
+              setHome(true);
+            }}
+            to=""
+            className={({ isActive }) => (isActive ? "title" : undefined)}
+          >
+            CSS TABS: <span>{count}</span>
+          </NavLink>
+        </h2>
 
-      <nav
-        className="navbar"
-        onClick={() => {
-          setHome(false);
-        }}
-      >
-        <NavLink
-          to="day1"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
+        <nav
+          className="navbar"
+          onClick={() => {
+            setHome(false);
+          }}
         >
-          <div className="daybar">
-            <span>1</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day2"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>2</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day3"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>3</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day4"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>4</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day5"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>5</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day6"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>6</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day7"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>7</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day8"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>8</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day9"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>9</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day10"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>10</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day11"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>11</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day12"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>12</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day13"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>13</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day14"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>14</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day15"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>15</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day16"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>16</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day17"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>17</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day18"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>18</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day19"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>19</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day20"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>20</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day21"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>21</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day22"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>22</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day23"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>23</span>
-          </div>
-        </NavLink>
-        <NavLink
-          to="day24"
-          className={({ isActive }) => (isActive ? activeClassName : undefined)}
-        >
-          <div className="daybar">
-            <span>24</span>
-          </div>
-        </NavLink>
-        <NavLink
+          <NavLink
+            to="day1"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>1</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day2"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>2</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day3"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>3</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day4"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>4</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day5"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>5</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day6"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>6</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day7"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>7</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day8"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>8</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day9"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>9</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day10"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>10</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day11"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>11</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day12"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>12</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day13"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>13</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day14"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>14</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day15"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>15</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day16"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>16</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day17"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>17</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day18"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>18</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day19"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>19</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day20"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>20</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day21"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>21</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day22"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>22</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day23"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>23</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day24"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>24</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day25"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>25</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day26"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>26</span>
+            </div>
+          </NavLink>
+          <NavLink
+            to="day27"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            <div className="daybar">
+              <span>27</span>
+            </div>
+          </NavLink>
+          {/* <NavLink
           to="day35"
           className={({ isActive }) => (isActive ? activeClassName : undefined)}
         >
           <div className="daybar">
             <span>35</span>
           </div>
-        </NavLink>
-      </nav>
-      <div className="back" onClick={toggleHome}>
-        <NavLink className={home ? "none" : "back"} to="back">
-          Back
-        </NavLink>
+        </NavLink> */}
+        </nav>
+        <div className="back" onClick={toggleHome}>
+          <NavLink className={home ? "none" : "back"} to="back">
+            Back
+          </NavLink>
+        </div>
       </div>
 
       <Routes>
@@ -297,6 +380,9 @@ function App() {
         <Route path="day22" element={<Day22 />} />
         <Route path="day23" element={<Day23 />} />
         <Route path="day24" element={<Day24 />} />
+        <Route path="day25" element={<Day25 />} />
+        <Route path="day26" element={<Day26 />} />
+        <Route path="day27" element={<Day27 />} />
         <Route path="day35" element={<Day35 />} />
         <Route path="back" element={<Navigate to="/" />} />
       </Routes>

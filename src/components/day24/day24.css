@@ -1,4 +1,4 @@
-.day26 {
+.day24 {
   background: #57d895;
   color: #fff;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -6,11 +6,11 @@
           box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.day26 .hidden {
+.day24 .hidden {
   display: none;
 }
 
-.day26 .button {
+.day24 .button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -31,18 +31,18 @@
   cursor: pointer;
 }
 
-.day26 .button:hover {
+.day24 .button:hover {
   background: #37be77;
 }
 
-.day26 .button img {
+.day24 .button img {
   position: absolute;
   top: 16px;
   left: 15px;
   opacity: 0;
 }
 
-.day26 .circle {
+.day24 .circle {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -58,19 +58,19 @@
   rotate: -90deg;
 }
 
-.day26 input:checked ~ .button {
+.day24 input:checked ~ .button {
   width: 60px;
   left: 170px;
   -webkit-animation: button_d24 0.5s ease both, fill_d24 0.5s ease-out 1.5s forwards;
           animation: button_d24 0.5s ease both, fill_d24 0.5s ease-out 1.5s forwards;
 }
 
-.day26 input:checked ~ .button img {
+.day24 input:checked ~ .button img {
   -webkit-animation: check_d24 0.5s ease-out 1.5s both;
           animation: check_d24 0.5s ease-out 1.5s both;
 }
 
-.day26 input:checked ~ .circle {
+.day24 input:checked ~ .circle {
   -webkit-animation: circle_d24 2s ease-out 0.5s both;
           animation: circle_d24 2s ease-out 0.5s both;
 }

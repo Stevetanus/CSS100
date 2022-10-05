@@ -11,6 +11,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body .leftside_nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 25%;
+}
+
 body h1 {
   text-align: center;
 }
@@ -77,10 +89,18 @@ body a.back {
   line-height: 50px;
   text-align: center;
   border-radius: 20px;
-  background: #1bbe9e;
+  font-size: 24px;
+  font-weight: 600;
+  background: lightgreen;
+  color: darkgreen;
 }
 
 body a.back:focus {
+  color: #fff;
+}
+
+body a.back:hover {
+  background: #1bbe9e;
   color: #fff;
 }
 
@@ -117,5 +137,15 @@ body a.nav-active .day {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.css100_description {
+  width: 30vw;
+  position: absolute;
+  right: 1%;
+  top: 40%;
+  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 0 10px;
 }
 /*# sourceMappingURL=index.css.map */

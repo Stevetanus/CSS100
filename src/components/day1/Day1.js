@@ -1,9 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./day1.css";
 
 export default function Day1() {
-  // let navigate = useNavigate();
   return (
     <>
       <div className="frame day1">
@@ -18,7 +16,13 @@ export default function Day1() {
           <span className="challenge">css chanllenge</span>
         </div>
       </div>
-      {/* <button onClick={() => navigate("/")}>Back to home!</button> */}
+      <div className="css100_description">
+        <h3>100 Days CSS</h3>
+        <p>
+          An easy start into the challenge with a custom build number with
+          gradient.
+        </p>
+      </div>
     </>
   );
 }

@@ -102,14 +102,14 @@
             transform: rotate(-28deg);
   }
   70% {
-    background: orangered;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+    background: orangered;
   }
   100% {
     background: #f57209;
-    -webkit-transform: rotate(70deg) scale(1);
-            transform: rotate(70deg) scale(1);
+    -webkit-transform: scale(1) rotate(70deg);
+            transform: scale(1) rotate(70deg);
   }
 }
 
@@ -125,14 +125,14 @@
             transform: rotate(-28deg);
   }
   70% {
-    background: orangered;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+    background: orangered;
   }
   100% {
     background: #f57209;
-    -webkit-transform: rotate(70deg) scale(1);
-            transform: rotate(70deg) scale(1);
+    -webkit-transform: scale(1) rotate(70deg);
+            transform: scale(1) rotate(70deg);
   }
 }
 

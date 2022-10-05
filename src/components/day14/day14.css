@@ -79,8 +79,8 @@
   width: 4px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 1s linear 0.1s infinite;
-          animation: street_d14 1s linear 0.1s infinite;
+  -webkit-animation: street_d14 1s linear 0.7s infinite;
+          animation: street_d14 1s linear 0.7s infinite;
 }
 
 .card_d14 .front .street .stripe-2 {
@@ -91,8 +91,8 @@
   width: 6px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 1s linear 0.6s infinite;
-          animation: street_d14 1s linear 0.6s infinite;
+  -webkit-animation: street_d14 1s linear 0.3s infinite;
+          animation: street_d14 1s linear 0.3s infinite;
 }
 
 .card_d14 .front .street .stripe-3 {
@@ -103,8 +103,8 @@
   width: 8px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 0.9s linear 0.2s infinite;
-          animation: street_d14 0.9s linear 0.2s infinite;
+  -webkit-animation: street_d14 0.9s linear 0.8s infinite;
+          animation: street_d14 0.9s linear 0.8s infinite;
 }
 
 .card_d14 .front .street .stripe-4 {
@@ -115,8 +115,8 @@
   width: 10px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 0.9s linear 0.3s infinite;
-          animation: street_d14 0.9s linear 0.3s infinite;
+  -webkit-animation: street_d14 0.9s linear 0.5s infinite;
+          animation: street_d14 0.9s linear 0.5s infinite;
 }
 
 .card_d14 .front .street .stripe-5 {
@@ -127,8 +127,8 @@
   width: 12px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 1s linear 0.6s infinite;
-          animation: street_d14 1s linear 0.6s infinite;
+  -webkit-animation: street_d14 0.9s linear 0.6s infinite;
+          animation: street_d14 0.9s linear 0.6s infinite;
 }
 
 .card_d14 .front .street .stripe-6 {
@@ -139,8 +139,8 @@
   width: 14px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 1s linear 1s infinite;
-          animation: street_d14 1s linear 1s infinite;
+  -webkit-animation: street_d14 0.9s linear 0.1s infinite;
+          animation: street_d14 0.9s linear 0.1s infinite;
 }
 
 .card_d14 .front .street .stripe-7 {
@@ -151,8 +151,8 @@
   width: 16px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 0.9s linear 0.5s infinite;
-          animation: street_d14 0.9s linear 0.5s infinite;
+  -webkit-animation: street_d14 0.9s linear 0.2s infinite;
+          animation: street_d14 0.9s linear 0.2s infinite;
 }
 
 .card_d14 .front .street .stripe-8 {
@@ -175,8 +175,8 @@
   width: 20px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: street_d14 0.9s linear 0.4s infinite;
-          animation: street_d14 0.9s linear 0.4s infinite;
+  -webkit-animation: street_d14 1s linear 0.7s infinite;
+          animation: street_d14 1s linear 0.7s infinite;
 }
 
 .card_d14 .back {
@@ -208,11 +208,11 @@
   right: -25px;
   top: 34px;
   height: 3px;
-  width: 16.2px;
+  width: 10.7px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.8s linear 0.4s infinite;
-          animation: cloud_d14 0.8s linear 0.4s infinite;
+  -webkit-animation: cloud_d14 0.8s linear 0.5s infinite;
+          animation: cloud_d14 0.8s linear 0.5s infinite;
 }
 
 .card_d14 .back .sky .cloud-2 {
@@ -220,11 +220,11 @@
   right: -25px;
   top: 48px;
   height: 3px;
-  width: 11.3px;
+  width: 21.3px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.7s linear 0.4s infinite;
-          animation: cloud_d14 0.7s linear 0.4s infinite;
+  -webkit-animation: cloud_d14 0.8s linear 0.9s infinite;
+          animation: cloud_d14 0.8s linear 0.9s infinite;
 }
 
 .card_d14 .back .sky .cloud-3 {
@@ -232,11 +232,11 @@
   right: -25px;
   top: 62px;
   height: 3px;
-  width: 21.5px;
+  width: 14px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.8s linear 0.3s infinite;
-          animation: cloud_d14 0.8s linear 0.3s infinite;
+  -webkit-animation: cloud_d14 0.8s linear 0.6s infinite;
+          animation: cloud_d14 0.8s linear 0.6s infinite;
 }
 
 .card_d14 .back .sky .cloud-4 {
@@ -244,11 +244,11 @@
   right: -25px;
   top: 76px;
   height: 3px;
-  width: 13.7px;
+  width: 24.3px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.7s linear 0.7s infinite;
-          animation: cloud_d14 0.7s linear 0.7s infinite;
+  -webkit-animation: cloud_d14 0.7s linear 0.5s infinite;
+          animation: cloud_d14 0.7s linear 0.5s infinite;
 }
 
 .card_d14 .back .sky .cloud-5 {
@@ -256,11 +256,11 @@
   right: -25px;
   top: 90px;
   height: 3px;
-  width: 24.9px;
+  width: 20.6px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.8s linear 0.7s infinite;
-          animation: cloud_d14 0.8s linear 0.7s infinite;
+  -webkit-animation: cloud_d14 0.7s linear 0.5s infinite;
+          animation: cloud_d14 0.7s linear 0.5s infinite;
 }
 
 .card_d14 .back .sky .cloud-6 {
@@ -268,11 +268,11 @@
   right: -25px;
   top: 104px;
   height: 3px;
-  width: 24.5px;
+  width: 21.3px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.7s linear 0.8s infinite;
-          animation: cloud_d14 0.7s linear 0.8s infinite;
+  -webkit-animation: cloud_d14 0.7s linear 0.1s infinite;
+          animation: cloud_d14 0.7s linear 0.1s infinite;
 }
 
 .card_d14 .back .sky .cloud-7 {
@@ -280,11 +280,11 @@
   right: -25px;
   top: 118px;
   height: 3px;
-  width: 11.9px;
+  width: 23.2px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.7s linear 0.1s infinite;
-          animation: cloud_d14 0.7s linear 0.1s infinite;
+  -webkit-animation: cloud_d14 0.8s linear 0.3s infinite;
+          animation: cloud_d14 0.8s linear 0.3s infinite;
 }
 
 .card_d14 .back .sky .cloud-8 {
@@ -292,11 +292,11 @@
   right: -25px;
   top: 132px;
   height: 3px;
-  width: 19.8px;
+  width: 12.5px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.8s linear 0.1s infinite;
-          animation: cloud_d14 0.8s linear 0.1s infinite;
+  -webkit-animation: cloud_d14 0.7s linear 0.5s infinite;
+          animation: cloud_d14 0.7s linear 0.5s infinite;
 }
 
 .card_d14 .back .sky .cloud-9 {
@@ -304,11 +304,11 @@
   right: -25px;
   top: 146px;
   height: 3px;
-  width: 12.7px;
+  width: 11.8px;
   background: #4b4841;
   border-radius: 3px;
-  -webkit-animation: cloud_d14 0.7s linear 0.2s infinite;
-          animation: cloud_d14 0.7s linear 0.2s infinite;
+  -webkit-animation: cloud_d14 0.7s linear 0.8s infinite;
+          animation: cloud_d14 0.7s linear 0.8s infinite;
 }
 
 @-webkit-keyframes bike_d14 {

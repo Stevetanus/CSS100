@@ -1,0 +1,184 @@
+.day25 {
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #2196f3;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.day25 .center_d25 {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 54%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.day25 .center_d25 img {
+  width: 65%;
+}
+
+.day25 .center_d25 .marker_d25 {
+  position: absolute;
+  left: 220px;
+  top: 100px;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+  opacity: 1;
+  -webkit-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.4s;
+}
+
+.day25 .center_d25 .marker_d25.inactive {
+  -webkit-transform: perspective(600px) rotateY(-90deg);
+          transform: perspective(600px) rotateY(-90deg);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.day25 .center_d25 .marker_d25 svg {
+  fill: #ffcc30;
+  -webkit-animation: hovering_d25 1s ease-in-out infinite alternate;
+          animation: hovering_d25 1s ease-in-out infinite alternate;
+}
+
+.day25 .center_d25 .marker_d25 .shadow {
+  background: #eee;
+  width: 18px;
+  height: 4px;
+  border-radius: 50%;
+  margin: 2px auto 0 auto;
+  -webkit-animation: shadow_d25 1s ease-in-out infinite alternate;
+          animation: shadow_d25 1s ease-in-out infinite alternate;
+}
+
+.day25 .card_d25 {
+  position: absolute;
+  z-index: 10;
+  width: 240px;
+  height: 190px;
+  top: 50px;
+  left: 95px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #3ac;
+  -webkit-box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  -webkit-transform: perspective(600px) rotateY(90deg);
+          transform: perspective(600px) rotateY(90deg);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.day25 .card_d25.active {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+  opacity: 1;
+  pointer-events: all;
+  -webkit-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.4s;
+}
+
+.day25 .card_d25 img {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.day25 .card_d25 p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 2px 0;
+}
+
+.day25 .card_d25 p.name {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+.day25 .card_d25 .actions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.day25 .card_d25 .actions a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.day25 .card_d25 .actions a:hover {
+  color: #fff;
+}
+
+.day25 .card_d25 .actions a:focus-within {
+  color: #fff;
+}
+
+.day25 .card_d25 .actions .divide {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  left: 50%;
+  top: 10px;
+  background: #222;
+}
+
+@-webkit-keyframes hovering_d25 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, -5px, 0);
+            transform: translate3d(0, -5px, 0);
+  }
+}
+
+@keyframes hovering_d25 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, -5px, 0);
+            transform: translate3d(0, -5px, 0);
+  }
+}
+
+@-webkit-keyframes shadow_d25 {
+  from {
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: scale(1.25) translate3d(0, 0, 0);
+            transform: scale(1.25) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes shadow_d25 {
+  from {
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: scale(1.25) translate3d(0, 0, 0);
+            transform: scale(1.25) translate3d(0, 0, 0);
+  }
+}
+/*# sourceMappingURL=day25.css.map */

@@ -89,13 +89,13 @@ $cubic-bezier: cubic-bezier(0.4, 0, 0.49, 1);
   }
 
   70% {
-    background: orangered;
     transform: scale(1.1);
+    background: orangered;
   }
 
   100% {
     background: #f57209;
-    transform: rotate(70deg) scale(1);
+    transform: scale(1) rotate(70deg);
   }
 }
 

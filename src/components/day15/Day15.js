@@ -63,33 +63,42 @@ export default function Day15() {
     }
   }, []);
   return (
-    <div class="frame day15">
-      <div class="center_d15">
-        <div class="bar"></div>
-        <div class="title">Drop file to upload</div>
-        <div class="dropzone">
-          <div class="content">
-            <img
-              src="https://100dayscss.com/codepen/upload.svg"
-              class="upload"
-              alt="upload"
-            />
-            <span class="filename"></span>
-            <input type="file" class="input" />
+    <>
+      <div className="frame day15">
+        <div className="center_d15">
+          <div className="bar"></div>
+          <div className="title">Drop file to upload</div>
+          <div className="dropzone">
+            <div className="content">
+              <img
+                src="https://100dayscss.com/codepen/upload.svg"
+                className="upload"
+                alt="upload"
+              />
+              <span className="filename"></span>
+              <input type="file" className="input" />
+            </div>
           </div>
+          <img
+            src="https://100dayscss.com/codepen/syncing.svg"
+            className="syncing"
+            alt="syncing"
+          />
+          <img
+            src="https://100dayscss.com/codepen/checkmark.svg"
+            className="done"
+            alt="done"
+          />
+          <div className="upload-btn">Upload file</div>
         </div>
-        <img
-          src="https://100dayscss.com/codepen/syncing.svg"
-          class="syncing"
-          alt="syncing"
-        />
-        <img
-          src="https://100dayscss.com/codepen/checkmark.svg"
-          class="done"
-          alt="done"
-        />
-        <div class="upload-btn">Upload file</div>
       </div>
-    </div>
+      <div className="css100_description">
+        <h3>Upload</h3>
+        <p>
+          Yes, you can actually drag and drop a file in there. But don't worry,
+          the upload process is faked.
+        </p>
+      </div>
+    </>
   );
 }

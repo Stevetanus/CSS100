@@ -18,64 +18,77 @@ export default function Day7() {
   }, []);
 
   return (
-    <div class="frame day7">
-      <div class="panel_d7">
-        <div class="header">
-          <div class="menu-icon">
-            <div class="dash-top"></div>
-            <div class="dash-bottom"></div>
-            <div class="circle"></div>
+    <>
+      <div className="frame day7">
+        <div className="panel_d7">
+          <div className="header">
+            <div className="menu-icon">
+              <div className="dash-top"></div>
+              <div className="dash-bottom"></div>
+              <div className="circle"></div>
+            </div>
+            <span className="title">Notifications</span>
+            <input
+              type="text"
+              className="search-input"
+              placeholder="Search..."
+            />
+            <div className="fa fa-search search-icon"></div>
           </div>
-          <span class="title">Notifications</span>
-          <input type="text" class="search-input" placeholder="Search..." />
-          <div class="fa fa-search search-icon"></div>
+
+          <div className="notifications clearfix">
+            <div className="line"></div>
+            <div className="notification">
+              <div className="circle"></div>
+              <span className="time">9:24 AM</span>
+              <p>
+                <b>John Walker</b> posted a photo on your wall.
+              </p>
+            </div>
+            <div className="notification">
+              <div className="circle"></div>
+              <span className="time">8:19 AM</span>
+              <p>
+                <b>Alice Parker</b> commented your last post.
+              </p>
+            </div>
+            <div className="notification">
+              <div className="circle"></div>
+              <span className="time">Yesterday</span>
+              <p>
+                <b>Luke Wayne</b> added you as friend.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="notifications clearfix">
-          <div class="line"></div>
-          <div class="notification">
-            <div class="circle"></div>
-            <span class="time">9:24 AM</span>
-            <p>
-              <b>John Walker</b> posted a photo on your wall.
-            </p>
-          </div>
-          <div class="notification">
-            <div class="circle"></div>
-            <span class="time">8:19 AM</span>
-            <p>
-              <b>Alice Parker</b> commented your last post.
-            </p>
-          </div>
-          <div class="notification">
-            <div class="circle"></div>
-            <span class="time">Yesterday</span>
-            <p>
-              <b>Luke Wayne</b> added you as friend.
-            </p>
-          </div>
+        <div className="menu_d7">
+          <ul>
+            <li>
+              <span className="fa fa-dashboard"></span>Dashboard
+            </li>
+            <li>
+              <span className="fa fa-user"></span>Profile
+            </li>
+            <li>
+              <span className="fa fa-bell"></span>Notifications
+            </li>
+            <li>
+              <span className="fa fa-message"></span>Messages
+            </li>
+            <li>
+              <span className="fa fa-gear"></span>Settings
+            </li>
+          </ul>
         </div>
       </div>
-
-      <div class="menu_d7">
-        <ul>
-          <li>
-            <span class="fa fa-dashboard"></span>Dashboard
-          </li>
-          <li>
-            <span class="fa fa-user"></span>Profile
-          </li>
-          <li>
-            <span class="fa fa-bell"></span>Notifications
-          </li>
-          <li>
-            <span class="fa fa-message"></span>Messages
-          </li>
-          <li>
-            <span class="fa fa-gear"></span>Settings
-          </li>
-        </ul>
+      <div className="css100_description">
+        <h3>Notifications, Search and Menu</h3>
+        <p>
+          The three cornerstones of any application? Brought together in the
+          smallest possible space.
+        </p>
       </div>
-    </div>
+    </>
   );
 }
