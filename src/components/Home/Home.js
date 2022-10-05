@@ -3,10 +3,10 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div class="frame day0">
-      <div class="center">
-        <div class="numbers">
-          <div class="three zero">
+    <div className="frame day0">
+      <div className="center">
+        <div className="numbers">
+          <div className="three zero">
             <svg viewBox="0 0 120 80">
               <path
                 fill="#323535"
@@ -24,8 +24,8 @@ export default function Home() {
             </svg>
           </div>
         </div>
-        <div class="days">Days</div>
-        <div class="iron">Iron Man</div>
+        <div className="days">Days</div>
+        <div className="iron">Iron Man</div>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ body .leftside_nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  top: 25%;
+  top: 20%;
 }
 
 body h1 {
@@ -43,7 +43,7 @@ body .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30vw;
+  width: 25vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -140,7 +140,7 @@ body a.nav-active .day {
 }
 
 .css100_description {
-  width: 30vw;
+  width: 25vw;
   position: absolute;
   right: 1%;
   top: 40%;
