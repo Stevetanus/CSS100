@@ -38,6 +38,7 @@
   height: 15px;
   top: 23px;
   left: 20px;
+  z-index: 1;
   cursor: pointer;
 }
 
