@@ -176,8 +176,7 @@ body .bottom_nav span a:focus-within {
   position: absolute;
   right: 1%;
   top: 40%;
-  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background: rgba(9, 5, 238, 0.568);
   padding: 0 10px;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -228,7 +227,7 @@ body .bottom_nav span a:focus-within {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     display: block;
     translate: -50px;
     -webkit-transition: all 1s ease-in-out;
@@ -264,7 +263,7 @@ body .bottom_nav span a:focus-within {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(9, 5, 238, 0.568);
     translate: -100px 250px;
   }
   .css100_description.active a {
@@ -282,7 +281,7 @@ body .bottom_nav span a:focus-within {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(9, 5, 238, 0.568);
     translate: -100px 320px;
   }
   .css100_description.active a {
