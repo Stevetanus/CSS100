@@ -228,10 +228,11 @@ body {
   .css100_description.active {
     z-index: 10;
     background: $button-bg;
+    width: 300px;
     a {
       color: rgba(255, 255, 255, 0.8);
     }
-    translate: -100px 250px;
+    translate: -50px 250px;
   }
 }
 
@@ -246,9 +247,10 @@ body {
   .css100_description.active {
     z-index: 10;
     background: $button-bg;
+    width: 250px;
     a {
       color: rgba(255, 255, 255, 0.8);
     }
-    translate: -100px 320px;
+    translate: -50px 320px;
   }
 }
