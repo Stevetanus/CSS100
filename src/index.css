@@ -265,8 +265,10 @@ body .bottom_nav span a:focus-within {
   .css100_description.active {
     z-index: 10;
     background: rgba(0, 0, 0, 0.3);
-    color: rgba(255, 255, 255, 0.8);
     translate: -100px 250px;
+  }
+  .css100_description.active a {
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -281,8 +283,10 @@ body .bottom_nav span a:focus-within {
   .css100_description.active {
     z-index: 10;
     background: rgba(0, 0, 0, 0.3);
-    color: rgba(255, 255, 255, 0.8);
     translate: -100px 320px;
+  }
+  .css100_description.active a {
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 /*# sourceMappingURL=index.css.map */
