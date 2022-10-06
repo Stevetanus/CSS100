@@ -226,7 +226,7 @@ body {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(2, 61, 5, 0.8);
+    background: $button-bg;
     a {
       color: rgba(255, 255, 255, 0.8);
     }
@@ -244,7 +244,7 @@ body {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(2, 61, 5, 0.8);
+    background: $button-bg;
     a {
       color: rgba(255, 255, 255, 0.8);
     }
