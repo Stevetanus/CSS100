@@ -1,8 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day2.css";
 
 export default function Day2() {
   const menuIconRef = useRef(null);
+  useEffect(() => {
+    toggle();
+  }, []);
   return (
     <>
       <div>
