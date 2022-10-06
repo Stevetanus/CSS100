@@ -86,6 +86,19 @@ body {
       }
     }
   }
+  .bottom_nav {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    left: 35%;
+    span {
+      width: 20vw;
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,400,500,600,200,800);
@@ -122,4 +135,14 @@ body {
   top: 40%;
   box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
   padding: 0 10px;
+  a {
+    margin-right: 20px;
+    color: darkblue;
+    &:hover {
+      color: #333;
+    }
+    &:focus-within {
+      color: #333;
+    }
+  }
 }

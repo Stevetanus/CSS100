@@ -22,6 +22,22 @@ export default function Day23() {
           Some big, bold and beautiful animated typography will enhance every
           boring header section.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10302576"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/XWqEeJq"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

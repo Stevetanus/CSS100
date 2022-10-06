@@ -76,6 +76,22 @@ export default function Day9() {
           The perfect time of day and the perfect weather to program in peace.
           The raindrops even shatter on the ground.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10292491"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/OJZpOWj"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

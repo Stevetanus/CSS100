@@ -31,6 +31,22 @@ export default function Day16() {
           It appears, wobbles, changes its shape and disappears again. Just like
           that.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10298189"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/jOxGoQg"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

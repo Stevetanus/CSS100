@@ -33,6 +33,22 @@ export default function Day20() {
           Surprise your visitors with a nice animation instead of a simple
           "request sent".
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10300702"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/jOxYaBN"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

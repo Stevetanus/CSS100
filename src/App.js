@@ -48,7 +48,7 @@ function App() {
   }
   return (
     <BrowserRouter>
-      <h1>Welcome to CSS100 dashboard \(^Д^)/</h1>
+      <h1>Welcome to Iron 30 dashboard \(^Д^)/</h1>
       <div className="leftside_nav">
         <h2>
           <NavLink
@@ -352,6 +352,24 @@ function App() {
             Back
           </NavLink>
         </div>
+      </div>
+      <div className="bottom_nav">
+        <span>
+          Made by{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Stevetanus/CSS100/"
+          >
+            steventhibe
+          </a>
+        </span>
+        <span>
+          Inspired by{" "}
+          <a target="_blank" rel="noreferrer" href="https://100dayscss.com/">
+            CSS 100
+          </a>
+        </span>
       </div>
 
       <Routes>

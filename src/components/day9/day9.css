@@ -177,8 +177,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.8s linear 1.48s infinite;
-          animation: drop_d9 0.8s linear 1.48s infinite;
+  -webkit-animation: drop_d9 0.9s linear 1.2s infinite;
+          animation: drop_d9 0.9s linear 1.2s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -214,8 +214,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.5s linear 0.68s infinite;
-          animation: drop_d9 1.5s linear 0.68s infinite;
+  -webkit-animation: drop_d9 1.5s linear 1.16s infinite;
+          animation: drop_d9 1.5s linear 1.16s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -239,8 +239,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 0.12s infinite;
-          animation: drop_d9 2.1s linear 0.12s infinite;
+  -webkit-animation: drop_d9 2.1s linear 0.84s infinite;
+          animation: drop_d9 2.1s linear 0.84s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -268,8 +268,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.9s linear 1.24s infinite;
-          animation: drop_d9 0.9s linear 1.24s infinite;
+  -webkit-animation: drop_d9 0.8s linear 0.88s infinite;
+          animation: drop_d9 0.8s linear 0.88s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -305,8 +305,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 1.96s infinite;
-          animation: drop_d9 1.4s linear 1.96s infinite;
+  -webkit-animation: drop_d9 1.4s linear 0.6s infinite;
+          animation: drop_d9 1.4s linear 0.6s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -330,8 +330,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 1.4s infinite;
-          animation: drop_d9 2.1s linear 1.4s infinite;
+  -webkit-animation: drop_d9 2.1s linear 1.64s infinite;
+          animation: drop_d9 2.1s linear 1.64s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -359,8 +359,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.9s linear 0.2s infinite;
-          animation: drop_d9 0.9s linear 0.2s infinite;
+  -webkit-animation: drop_d9 0.8s linear 0.92s infinite;
+          animation: drop_d9 0.8s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -396,8 +396,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 1.56s infinite;
-          animation: drop_d9 1.4s linear 1.56s infinite;
+  -webkit-animation: drop_d9 1.4s linear 1.44s infinite;
+          animation: drop_d9 1.4s linear 1.44s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -421,8 +421,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 1.92s infinite;
-          animation: drop_d9 2.1s linear 1.92s infinite;
+  -webkit-animation: drop_d9 2.1s linear 1.76s infinite;
+          animation: drop_d9 2.1s linear 1.76s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -487,8 +487,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.5s linear 1.92s infinite;
-          animation: drop_d9 1.5s linear 1.92s infinite;
+  -webkit-animation: drop_d9 1.5s linear 0.48s infinite;
+          animation: drop_d9 1.5s linear 0.48s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -512,8 +512,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2s linear 1.36s infinite;
-          animation: drop_d9 2s linear 1.36s infinite;
+  -webkit-animation: drop_d9 2s linear 0.88s infinite;
+          animation: drop_d9 2s linear 0.88s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -541,8 +541,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.8s linear 1.24s infinite;
-          animation: drop_d9 0.8s linear 1.24s infinite;
+  -webkit-animation: drop_d9 0.9s linear 1.56s infinite;
+          animation: drop_d9 0.9s linear 1.56s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -578,8 +578,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 1.88s infinite;
-          animation: drop_d9 1.4s linear 1.88s infinite;
+  -webkit-animation: drop_d9 1.4s linear 0.6s infinite;
+          animation: drop_d9 1.4s linear 0.6s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -603,8 +603,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 0.28s infinite;
-          animation: drop_d9 2.1s linear 0.28s infinite;
+  -webkit-animation: drop_d9 2s linear 1s infinite;
+          animation: drop_d9 2s linear 1s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -632,8 +632,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.8s linear 1.6s infinite;
-          animation: drop_d9 0.8s linear 1.6s infinite;
+  -webkit-animation: drop_d9 0.9s linear 0.4s infinite;
+          animation: drop_d9 0.9s linear 0.4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -669,8 +669,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 0.84s infinite;
-          animation: drop_d9 1.4s linear 0.84s infinite;
+  -webkit-animation: drop_d9 1.4s linear 0.56s infinite;
+          animation: drop_d9 1.4s linear 0.56s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -694,8 +694,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 1.32s infinite;
-          animation: drop_d9 2.1s linear 1.32s infinite;
+  -webkit-animation: drop_d9 2s linear 1.76s infinite;
+          animation: drop_d9 2s linear 1.76s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -723,8 +723,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.9s linear 1.68s infinite;
-          animation: drop_d9 0.9s linear 1.68s infinite;
+  -webkit-animation: drop_d9 0.8s linear 0.28s infinite;
+          animation: drop_d9 0.8s linear 0.28s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -760,8 +760,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 0.2s infinite;
-          animation: drop_d9 1.4s linear 0.2s infinite;
+  -webkit-animation: drop_d9 1.5s linear 0.48s infinite;
+          animation: drop_d9 1.5s linear 0.48s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -785,8 +785,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 1.8s infinite;
-          animation: drop_d9 2.1s linear 1.8s infinite;
+  -webkit-animation: drop_d9 2s linear 1.24s infinite;
+          animation: drop_d9 2s linear 1.24s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -814,8 +814,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.8s linear 0.28s infinite;
-          animation: drop_d9 0.8s linear 0.28s infinite;
+  -webkit-animation: drop_d9 0.9s linear 1.2s infinite;
+          animation: drop_d9 0.9s linear 1.2s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -851,8 +851,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 0.36s infinite;
-          animation: drop_d9 1.4s linear 0.36s infinite;
+  -webkit-animation: drop_d9 1.5s linear 0.72s infinite;
+          animation: drop_d9 1.5s linear 0.72s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -876,8 +876,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2s linear 0.2s infinite;
-          animation: drop_d9 2s linear 0.2s infinite;
+  -webkit-animation: drop_d9 2s linear 1.52s infinite;
+          animation: drop_d9 2s linear 1.52s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -905,8 +905,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.9s linear 1.56s infinite;
-          animation: drop_d9 0.9s linear 1.56s infinite;
+  -webkit-animation: drop_d9 0.9s linear 1.92s infinite;
+          animation: drop_d9 0.9s linear 1.92s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -942,8 +942,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.5s linear 0.6s infinite;
-          animation: drop_d9 1.5s linear 0.6s infinite;
+  -webkit-animation: drop_d9 1.4s linear 0.84s infinite;
+          animation: drop_d9 1.4s linear 0.84s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -967,8 +967,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2.1s linear 0.6s infinite;
-          animation: drop_d9 2.1s linear 0.6s infinite;
+  -webkit-animation: drop_d9 2.1s linear 1.8s infinite;
+          animation: drop_d9 2.1s linear 1.8s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -996,8 +996,8 @@
   height: 8px;
   border-radius: 50%;
   background: #7fc1f9;
-  -webkit-animation: drop_d9 0.8s linear 0.84s infinite;
-          animation: drop_d9 0.8s linear 0.84s infinite;
+  -webkit-animation: drop_d9 0.9s linear 0.36s infinite;
+          animation: drop_d9 0.9s linear 0.36s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -1033,8 +1033,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop_d9 1.4s linear 1.08s infinite;
-          animation: drop_d9 1.4s linear 1.08s infinite;
+  -webkit-animation: drop_d9 1.5s linear 2s infinite;
+          animation: drop_d9 1.5s linear 2s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -1058,8 +1058,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop_d9 2s linear 0.48s infinite;
-          animation: drop_d9 2s linear 0.48s infinite;
+  -webkit-animation: drop_d9 2s linear 0.04s infinite;
+          animation: drop_d9 2s linear 0.04s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }

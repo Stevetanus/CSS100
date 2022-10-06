@@ -19,6 +19,22 @@ export default function Day18() {
           I thought for a long time about the best way to achieve this effect.
           In the end, the solution was easier than expected.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10299668"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/QWraKpp"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

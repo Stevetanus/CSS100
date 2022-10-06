@@ -23,6 +23,22 @@ export default function Day24() {
           Do you really wanna let your users guess if their actions were
           successful? No! So give them some feedback if they click a button.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10303323"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/OJZvzBJ"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

@@ -60,6 +60,22 @@ export default function Day27() {
           What's the great thing about working through your to-do list? That's
           right, the relieving feeling when you can check off the tasks.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10288358"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/XWqdjwr"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

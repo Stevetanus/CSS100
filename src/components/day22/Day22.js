@@ -46,6 +46,22 @@ export default function Day22() {
           Don't sit on your chair all day long. Get up, jump, run, exercice and
           burn some calories.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10302167"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/BaxrNLQ"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

@@ -22,6 +22,22 @@ export default function Day19() {
           Why use JavaScript when you can use CSS? Selectors can be wildly
           combined with each other.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10300349"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/ZEovLgy"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

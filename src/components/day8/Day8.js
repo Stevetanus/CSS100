@@ -33,6 +33,22 @@ export default function Day8() {
           At first glance impossible to implement with CSS, but filters make
           this possible too.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10291289"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/JjvEVpM"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

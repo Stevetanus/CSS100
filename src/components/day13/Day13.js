@@ -92,6 +92,22 @@ export default function Day13() {
           Which side of the card do you want to use? Either drive or fly to work
           in the morning?
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10295592"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/BaxZEXG"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

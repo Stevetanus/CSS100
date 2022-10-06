@@ -33,6 +33,22 @@ export default function Day12() {
           I'm quite sure, you already know what obsession means. But you can
           look it up anyways.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10294862"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/NWMgxQZ"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

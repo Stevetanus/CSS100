@@ -94,6 +94,22 @@ export default function Day5() {
           In a world of numbers, it is important to be able to interpret them
           correctly. Beautiful statistics help to capture these data.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10289951"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/XWqjMbV"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

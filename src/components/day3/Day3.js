@@ -22,6 +22,22 @@ export default function Day2() {
           Not as challenging as the real pyramids in Egypt, but the shadow path
           is not easy.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10289349"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/gOzMgEY"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

@@ -58,6 +58,22 @@ export default function Day25() {
           Did I just placed a marker in the middle of some water to get a nice
           color contrast? Maybe. Click on it for a nice transition.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10303782"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/gOzzqNM"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

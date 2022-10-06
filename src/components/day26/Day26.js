@@ -69,6 +69,22 @@ export default function Day26() {
           What's worse than a motivational quote? Three motivational quotes...
           so don't focus on the text and click through them quickly.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10303876"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/jOxxENj"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

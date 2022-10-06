@@ -21,6 +21,22 @@ export default function Day21() {
           Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka
           Waka Waka Waka Waka Waka…
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10300914"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/yLjvqBw"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

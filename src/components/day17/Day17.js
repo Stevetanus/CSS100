@@ -59,6 +59,22 @@ export default function Day17() {
           CSS makes even the impossible possible. Can you find out how it was
           done?
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10298968"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/QWrOmry"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

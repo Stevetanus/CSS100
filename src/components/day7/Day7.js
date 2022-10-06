@@ -88,6 +88,22 @@ export default function Day7() {
           The three cornerstones of any application? Brought together in the
           smallest possible space.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10291130"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/abGBrxo"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

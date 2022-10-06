@@ -98,6 +98,22 @@ export default function Day15() {
           Yes, you can actually drag and drop a file in there. But don't worry,
           the upload process is faked.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10296480"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/vYjemrj"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

@@ -112,6 +112,25 @@ body a.nav-active .day {
   color: gray;
 }
 
+body .bottom_nav {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 35%;
+}
+
+body .bottom_nav span {
+  width: 20vw;
+  font-size: 20px;
+  line-height: 40px;
+}
+
 .frame {
   position: absolute;
   top: 50%;
@@ -147,5 +166,18 @@ body a.nav-active .day {
   -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
   padding: 0 10px;
+}
+
+.css100_description a {
+  margin-right: 20px;
+  color: darkblue;
+}
+
+.css100_description a:hover {
+  color: #333;
+}
+
+.css100_description a:focus-within {
+  color: #333;
 }
 /*# sourceMappingURL=index.css.map */

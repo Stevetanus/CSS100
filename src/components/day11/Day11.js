@@ -21,6 +21,22 @@ export default function Day11() {
           These boots are made for walking. Where are they going and for how
           long?
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10294158"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/wvjdGeK"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );

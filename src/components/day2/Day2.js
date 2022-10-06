@@ -32,6 +32,22 @@ export default function Day2() {
           Used on almost every website by now, simple but impressively animated
           it becomes a real eye-catcher.
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://ithelp.ithome.com.tw/articles/10289065"
+          >
+            Iron article
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://codepen.io/stevetanus/pen/qBYZgxr"
+          >
+            Source
+          </a>
+        </p>
       </div>
     </>
   );
