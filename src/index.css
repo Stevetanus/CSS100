@@ -197,7 +197,7 @@ body .bottom_nav span a:focus-within {
 
 .menu_right {
   position: absolute;
-  background: #fff;
+  background: transparent;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,6 +215,11 @@ body .bottom_nav span a:focus-within {
   translate: 100px;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+}
+
+.menu_right :hover {
+  background: #fff;
+  border: 1px solid #000;
 }
 
 @media screen and (max-width: 1000px) {

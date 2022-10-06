@@ -161,7 +161,8 @@ body {
 }
 .menu_right {
   position: absolute;
-  background: #fff;
+  background: transparent;
+
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -172,6 +173,10 @@ body {
   right: 0;
   translate: 100px;
   transition: all 1s ease-in-out;
+  :hover {
+    background: #fff;
+    border: 1px solid #000;
+  }
 }
 
 @media screen and (max-width: 1000px) {
