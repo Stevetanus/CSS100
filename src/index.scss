@@ -161,7 +161,7 @@ body {
   }
 }
 .menu_right {
-  // display: none;
+  display: none;
   position: absolute;
   background: transparent;
   background: #fff;
@@ -195,6 +195,7 @@ body {
     }
   }
   .menu_right {
+    display: block;
     translate: 0px;
     &.rotate {
       i {
@@ -219,6 +220,7 @@ body {
   }
   .frame,
   .menu_right {
+    display: block;
     translate: 0px 250px;
   }
   .bottom_nav {
@@ -237,6 +239,7 @@ body {
 @media screen and (max-width: 473px) {
   .frame,
   .menu_right {
+    display: block;
     translate: 0px 320px;
   }
   .bottom_nav {

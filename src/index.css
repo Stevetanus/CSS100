@@ -196,6 +196,7 @@ body .bottom_nav span a:focus-within {
 }
 
 .menu_right {
+  display: none;
   position: absolute;
   background: transparent;
   background: #fff;
@@ -238,6 +239,7 @@ body .bottom_nav span a:focus-within {
     color: rgba(255, 255, 255, 0.8);
   }
   .menu_right {
+    display: block;
     translate: 0px;
   }
   .menu_right.rotate i {
@@ -260,6 +262,7 @@ body .bottom_nav span a:focus-within {
   }
   .frame,
   .menu_right {
+    display: block;
     translate: 0px 250px;
   }
   .bottom_nav {
@@ -278,6 +281,7 @@ body .bottom_nav span a:focus-within {
 @media screen and (max-width: 473px) {
   .frame,
   .menu_right {
+    display: block;
     translate: 0px 320px;
   }
   .bottom_nav {
