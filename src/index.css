@@ -115,8 +115,12 @@ body a.nav-active {
   font-weight: 900;
 }
 
-body a.nav-active .day {
-  color: gray;
+body a.nav-active .daybar {
+  color: darkgreen;
+}
+
+body a.nav-active .daybar span {
+  scale: 1.25;
 }
 
 body .bottom_nav {

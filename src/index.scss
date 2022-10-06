@@ -87,8 +87,11 @@ body {
     }
     &.nav-active {
       font-weight: 900;
-      .day {
-        color: gray;
+      .daybar {
+        color: darkgreen;
+        span {
+          scale: 1.25;
+        }
       }
     }
   }
