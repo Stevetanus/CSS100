@@ -219,7 +219,7 @@ body .bottom_nav span a:focus-within {
 }
 
 .menu_right :hover {
-  border: 1px solid #000;
+  scale: 1.15;
 }
 
 @media screen and (max-width: 1000px) {
@@ -228,7 +228,7 @@ body .bottom_nav span a:focus-within {
   }
   .css100_description.active {
     display: block;
-    translate: -100px;
+    translate: -50px;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
   }

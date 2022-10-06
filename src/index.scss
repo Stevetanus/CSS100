@@ -175,7 +175,7 @@ body {
   translate: 100px;
   transition: all 1s ease-in-out;
   :hover {
-    border: 1px solid #000;
+    scale: 1.15;
   }
 }
 
@@ -184,7 +184,7 @@ body {
     display: none;
     &.active {
       display: block;
-      translate: -100px;
+      translate: -50px;
       transition: all 1s ease-in-out;
     }
   }
