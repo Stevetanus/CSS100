@@ -217,9 +217,9 @@ body {
   .bottom_nav {
     translate: 0px 200px;
   }
-  .css100_description,
+  .css100_description.active,
   .menu_right {
-    translate: 0px 250px;
+    translate: -50px 250px;
   }
 }
 
@@ -230,8 +230,8 @@ body {
   .bottom_nav {
     translate: 0px 270px;
   }
-  .css100_description,
+  .css100_description.active,
   .menu_right {
-    translate: 0px 320px;
+    translate: -50px 320px;
   }
 }
