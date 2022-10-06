@@ -96,6 +96,7 @@ export default function Day13() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10295592"
@@ -103,6 +104,7 @@ export default function Day13() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/BaxZEXG"

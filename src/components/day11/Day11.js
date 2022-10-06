@@ -27,6 +27,7 @@ export default function Day11() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10294158"
@@ -34,6 +35,7 @@ export default function Day11() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/wvjdGeK"

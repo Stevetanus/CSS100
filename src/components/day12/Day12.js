@@ -39,6 +39,7 @@ export default function Day12() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10294862"
@@ -46,6 +47,7 @@ export default function Day12() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/NWMgxQZ"

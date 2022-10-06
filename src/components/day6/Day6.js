@@ -50,6 +50,7 @@ export default function Day6() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10290513"
@@ -57,6 +58,7 @@ export default function Day6() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/JjvbKXR"

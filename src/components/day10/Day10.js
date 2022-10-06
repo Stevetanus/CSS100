@@ -123,6 +123,7 @@ export default function Day10() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10293233"
@@ -130,6 +131,7 @@ export default function Day10() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/OJZpeEO"

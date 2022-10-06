@@ -52,6 +52,7 @@ export default function Day22() {
         </p>
         <p>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://ithelp.ithome.com.tw/articles/10302167"
@@ -59,6 +60,7 @@ export default function Day22() {
             Iron article
           </a>
           <a
+            className="reflink"
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/stevetanus/pen/BaxrNLQ"
