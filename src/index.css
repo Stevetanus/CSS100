@@ -228,11 +228,14 @@ body .bottom_nav span a:focus-within {
   }
   .css100_description.active {
     z-index: 10;
-    background: rgba(2, 61, 5, 0.8);
+    background: #22c55e;
     display: block;
     translate: -50px;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
+  }
+  .css100_description.active a {
+    color: rgba(255, 255, 255, 0.8);
   }
   .menu_right {
     translate: 0px;

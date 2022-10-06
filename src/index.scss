@@ -185,7 +185,10 @@ body {
     display: none;
     &.active {
       z-index: 10;
-      background: rgba(2, 61, 5, 0.8);
+      background: $button-bg;
+      a {
+        color: rgba(255, 255, 255, 0.8);
+      }
       display: block;
       translate: -50px;
       transition: all 1s ease-in-out;
