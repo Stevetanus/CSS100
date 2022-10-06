@@ -41,6 +41,12 @@ function App() {
   useEffect(() => {
     let days = document.querySelectorAll(".daybar").length;
     setCount(days);
+    const menuRight = document.querySelector(".menu_right");
+    const cssDescription = document.querySelector(".css100_description");
+    menuRight.addEventListener("click", () => {
+      cssDescription.classList.toggle("active");
+      menuRight.classList.toggle("rotate");
+    });
   }, []);
   let activeClassName = "nav-active";
   function toggleHome() {
@@ -351,6 +357,9 @@ function App() {
           <NavLink className={home ? "none" : "back"} to="back">
             Back
           </NavLink>
+        </div>
+        <div className="menu_left">
+          <i class="fa-solid fa-arrow-right"></i>
         </div>
       </div>
       <div className="bottom_nav">

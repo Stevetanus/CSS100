@@ -7,6 +7,7 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
   font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,6 +17,9 @@ body {
     display: flex;
     flex-direction: column;
     top: 20%;
+    .menu_left {
+      display: none;
+    }
   }
 
   h1 {
@@ -88,15 +92,24 @@ body {
   }
   .bottom_nav {
     margin: 0 auto;
-    display: flex;
+    text-align: center;
     position: absolute;
+    width: 98%;
     bottom: 0;
-    justify-content: center;
-    left: 35%;
     span {
       width: 20vw;
       font-size: 20px;
       line-height: 40px;
+      padding: 10px 20px;
+      a {
+        color: forestgreen;
+        &:hover {
+          color: crimson;
+        }
+        &:focus-within {
+          color: crimson;
+        }
+      }
     }
   }
 }
@@ -135,14 +148,46 @@ body {
   top: 40%;
   box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.3);
   padding: 0 10px;
+  transition: all 1s ease-in-out;
   a {
-    margin-right: 20px;
-    color: darkblue;
+    color: forestgreen;
     &:hover {
-      color: #333;
+      color: crimson;
     }
     &:focus-within {
-      color: #333;
+      color: crimson;
+    }
+  }
+}
+.menu_right {
+  position: absolute;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 150px;
+  top: 40%;
+  right: 0;
+  translate: 100px;
+  transition: all 1s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .css100_description {
+    display: none;
+    &.active {
+      display: block;
+      transition: all 1s ease-in-out;
+    }
+  }
+  .menu_right {
+    translate: 0px;
+    &.rotate {
+      i {
+        rotate: 180deg;
+      }
     }
   }
 }
