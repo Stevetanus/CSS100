@@ -7,7 +7,7 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
   font-family: "Ubuntu", sans-serif;
-  overflow: hidden;
+  // overflow: hidden;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -195,5 +195,43 @@ body {
         rotate: 180deg;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leftside_nav {
+    height: 100%;
+    .navbar {
+      width: 98%;
+    }
+    .back {
+      width: 100px;
+      margin-top: 0;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .frame {
+    translate: 0px 250px;
+  }
+  .bottom_nav {
+    translate: 0px 200px;
+  }
+  .css100_description,
+  .menu_right {
+    translate: 0px 250px;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .frame {
+    translate: 0px 320px;
+  }
+  .bottom_nav {
+    translate: 0px 270px;
+  }
+  .css100_description,
+  .menu_right {
+    translate: 0px 320px;
   }
 }
