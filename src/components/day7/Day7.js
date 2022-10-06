@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day7.css";
 
 export default function Day7() {
@@ -15,6 +16,7 @@ export default function Day7() {
       panel.classList.toggle("show-menu");
       menu.classList.toggle("active");
     });
+    toggle();
   }, []);
 
   return (

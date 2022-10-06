@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day20.css";
 
 export default function Day20() {
+  useEffect(() => {
+    toggle();
+  });
   return (
     <>
       <div className="frame day20">

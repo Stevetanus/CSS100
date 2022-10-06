@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day13.css";
 
 export default function Day13() {
@@ -17,6 +18,7 @@ export default function Day13() {
     closeBtn.addEventListener("click", function () {
       detail.classList.remove("active");
     });
+    toggle();
   }, []);
   return (
     <>

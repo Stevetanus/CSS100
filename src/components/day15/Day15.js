@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day15.css";
 
 export default function Day15() {
@@ -15,6 +16,7 @@ export default function Day15() {
     let fileName = "";
     let timeout;
 
+    toggle();
     dropzone.addEventListener("dragover", () => {
       dropzone.classList.add("is-dragover");
     });

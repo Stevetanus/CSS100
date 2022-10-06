@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day25.css";
 
 export default function Day25() {
@@ -14,6 +15,7 @@ export default function Day25() {
       card_d25.classList.remove("active");
       marker_d25.classList.remove("inactive");
     });
+    toggle();
   }, []);
   return (
     <>

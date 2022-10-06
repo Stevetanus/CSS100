@@ -252,28 +252,28 @@ body .bottom_nav span a:focus-within {
     height: 40px;
     line-height: 40px;
   }
-  .frame {
+  .frame,
+  .menu_right {
     translate: 0px 250px;
   }
   .bottom_nav {
     translate: 0px 200px;
   }
-  .css100_description.active,
-  .menu_right {
-    translate: -50px 250px;
+  .css100_description.active {
+    translate: -100px 250px;
   }
 }
 
 @media screen and (max-width: 473px) {
-  .frame {
+  .frame,
+  .menu_right {
     translate: 0px 320px;
   }
   .bottom_nav {
     translate: 0px 270px;
   }
-  .css100_description.active,
-  .menu_right {
-    translate: -50px 320px;
+  .css100_description.active {
+    translate: -100px 320px;
   }
 }
 /*# sourceMappingURL=index.css.map */

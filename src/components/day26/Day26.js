@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import toggle from "../function/toggle";
 import "./day26.css";
 
 export default function Day26() {
@@ -19,6 +20,7 @@ export default function Day26() {
         }
       });
     }
+    toggle();
   }, []);
   return (
     <>
