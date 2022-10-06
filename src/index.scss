@@ -60,6 +60,7 @@ body {
   }
   a {
     text-decoration: none;
+    font-weight: 600;
     &.none {
       display: none;
     }
@@ -223,6 +224,7 @@ body {
   .css100_description.active {
     z-index: 10;
     background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.8);
     translate: -100px 250px;
   }
 }
@@ -238,6 +240,7 @@ body {
   .css100_description.active {
     z-index: 10;
     background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.8);
     translate: -100px 320px;
   }
 }
