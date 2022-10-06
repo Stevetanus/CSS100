@@ -183,6 +183,8 @@ body {
   .css100_description {
     display: none;
     &.active {
+      z-index: 10;
+      background: rgba(0, 0, 0, 0.3);
       display: block;
       translate: -50px;
       transition: all 1s ease-in-out;
@@ -219,6 +221,8 @@ body {
     translate: 0px 200px;
   }
   .css100_description.active {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
     translate: -100px 250px;
   }
 }
@@ -232,6 +236,8 @@ body {
     translate: 0px 270px;
   }
   .css100_description.active {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
     translate: -100px 320px;
   }
 }

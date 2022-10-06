@@ -226,6 +226,8 @@ body .bottom_nav span a:focus-within {
     display: none;
   }
   .css100_description.active {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
     display: block;
     translate: -50px;
     -webkit-transition: all 1s ease-in-out;
@@ -260,6 +262,8 @@ body .bottom_nav span a:focus-within {
     translate: 0px 200px;
   }
   .css100_description.active {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
     translate: -100px 250px;
   }
 }
@@ -273,6 +277,8 @@ body .bottom_nav span a:focus-within {
     translate: 0px 270px;
   }
   .css100_description.active {
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
     translate: -100px 320px;
   }
 }
