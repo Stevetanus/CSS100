@@ -7,7 +7,8 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
   font-family: "Ubuntu", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
