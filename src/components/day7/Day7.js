@@ -105,6 +105,9 @@ export default function Day7() {
           </a>
         </p>
       </div>
+      <div className="menu_right">
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
     </>
   );
 }

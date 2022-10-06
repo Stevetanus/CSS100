@@ -38,6 +38,9 @@ export default function Day11() {
           </a>
         </p>
       </div>
+      <div className="menu_right">
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
     </>
   );
 }
