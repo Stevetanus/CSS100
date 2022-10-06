@@ -1,6 +1,6 @@
 # CSS100
 
-This project is to display all works from [CSS100](https://100dayscss.com/), I had written 27 articles about the details of everyday challenge on [Ithelp](https://ithelp.ithome.com.tw/), here is the introduction,
+This project is to display all works from [CSS100](https://100dayscss.com/), I had written 30 articles about the details of everyday challenge on [Ithelp](https://ithelp.ithome.com.tw/), here is the introduction,
 
 https://ithelp.ithome.com.tw/users/20152191/ironman/5621
 
