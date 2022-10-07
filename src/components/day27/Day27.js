@@ -69,7 +69,7 @@ export default function Day27() {
             className="reflink"
             target="_blank"
             rel="noreferrer"
-            href="https://ithelp.ithome.com.tw/articles/10288358"
+            href="https://ithelp.ithome.com.tw/articles/10303877"
           >
             Iron article
           </a>
@@ -77,7 +77,7 @@ export default function Day27() {
             className="reflink"
             target="_blank"
             rel="noreferrer"
-            href="https://codepen.io/stevetanus/pen/XWqdjwr"
+            href="https://codepen.io/stevetanus/pen/KKRRbBp"
           >
             Source
           </a>
